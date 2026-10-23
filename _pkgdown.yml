@@ -1,0 +1,112 @@
+url: https://recetox.github.io/mzspeclib-r
+
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#2E86AB"
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
+
+development:
+  mode: auto
+
+authors:
+  Helge Hecht:
+    href: "https://orcid.org/0000-0001-6744-996X"
+  Tianwei Yu:
+    href: "https://orcid.org/0000-0003-2502-1628"
+
+reference:
+  - title: "Data Loading & I/O"
+    contents:
+      - starts_with("load")
+      - starts_with("read_")
+      - starts_with("write_")
+  - title: "Feature Detection & Processing"
+    contents:
+      - starts_with("adaptive")
+      - starts_with("feature")
+      - starts_with("find")
+      - matches("msExtrema")
+  - title: "Peak Characterization"
+    contents:
+      - starts_with("peak")
+      - starts_with("characterize")
+      - starts_with("bigauss")
+      - starts_with("normix")
+      - starts_with("gauss")
+      - matches("gaussian")
+      - matches("initiation")
+  - title: "Alignment & Aggregation"
+    contents:
+      - starts_with("align")
+      - starts_with("aggregate")
+      - matches("clusters")
+      - matches("aligned")
+  - title: "Filtering & Noise Reduction"
+    contents:
+      - starts_with("filter")
+      - starts_with("remove_")
+      - starts_with("rm_")
+      - matches("run_filter")
+  - title: "Retention Time Correction"
+    contents:
+      - matches("correct")
+      - matches("adjust.time")
+      - matches("predict_smoothed_rt")
+      - matches("readjust_times")
+      - matches("find.tol.time")
+  - title: "(Two-Step) Hybrid Methods"
+    contents:
+      - starts_with("two_step")
+      - starts_with("hybrid")
+      - starts_with("two.step.hybrid")
+      - starts_with("merge")
+      - matches("known_table")
+      - matches("known_features")
+      - matches("match_peaks")
+  - title: "Weaker Signal Recovery"
+    contents:
+      - starts_with("recover")
+      - matches("fill_missing_values")
+  - title: "Visualization"
+    contents:
+      - matches("plot")
+      - matches("draw")
+  - title: "Utilities"
+    contents:
+      - starts_with("as_")
+      - starts_with("get_")
+      - starts_with("compute_")
+      - starts_with("create_")
+      - starts_with("process_")
+      - starts_with("extract")
+      - starts_with("pivot")
+      - starts_with("long_to_wide")
+      - starts_with("wide_to_long")
+      - starts_with("validate_")
+      - starts_with("check_")
+      - starts_with("preprocess_")
+      - starts_with("solve_")
+  - title: "User API"
+    contents:
+      - matches("unsupervised")
+      - matches("prof.to.features")
+
+articles:
+  - title: "Getting Started"
+    navbar: ~
+    contents:
+      - intro
+  - title: "Advanced Topics"
+    contents:
+      - starts_with("advanced/")
+
+navbar:
+  structure:
+    left: [intro, reference, articles, license]
+    right: [github, lightswitch, search]
+  components:
+    github:
+      icon: fa-github
+      href: https://github.com/RECETOX/mzspeclib-r
