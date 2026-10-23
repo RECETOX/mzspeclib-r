@@ -1,0 +1,262 @@
+{
+  "attributes": [
+    {
+      "accession": "MS:1003186",
+      "name": "library format version",
+      "value": "1.0"
+    },
+    {
+      "accession": "MS:1003187",
+      "name": "library identifier",
+      "value": "mzspec:PXL000001:fetal_brain_tiny_consensus_td"
+    },
+    {
+      "accession": "MS:1003188",
+      "name": "library name",
+      "value": "fetal_brain_tiny_consensus_td"
+    }
+  ],
+  "spectra": [
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 1
+        }
+      ],
+      "analytes": {
+        "1": {
+          "id": 1,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE1K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "10": {
+          "id": 10,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE10K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "11": {
+          "id": 11,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE11K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "2": {
+          "id": 2,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE2K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "3": {
+          "id": 3,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE3K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "4": {
+          "id": 4,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE4K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "5": {
+          "id": 5,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE5K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "6": {
+          "id": 6,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE6K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "7": {
+          "id": 7,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE7K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "8": {
+          "id": 8,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE8K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        },
+        "9": {
+          "id": 9,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "PEPTIDE9K/2"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 2
+            },
+            {
+              "accession": "MS:1000885",
+              "name": "protein accession",
+              "value": "sp|P02768|ALBU_HUMAN"
+            }
+          ]
+        }
+      },
+      "mzs": [
+        103.0541
+      ],
+      "intensities": [
+        102.5
+      ],
+      "peak_annotations": [
+        "?"
+      ]
+    }
+  ],
+  "format_version": "1.0"
+}

@@ -1,0 +1,46 @@
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+MS:1003188|library name=canonical round trip
+MS:1001200|confidence=
+[1]MS:1003207|library creation software=MS:1001477|SpectraST
+[1]MS:1003200|software version=6.0
+[1]MS:1003206|library creation log=COMPILE FROM "/data/canonical.splib"  [DECOY;c=TRUE]
+MS:1003203|constituent spectrum file=mzspec:PXD000561:Fetal_Brain_Gel_Velos_16_f16
+<AttributeSet Spectrum=all>
+MS:1000511|ms level=2
+MS:1000043|intensity unit=MS:1000905|percent of base peak times 100
+[1]MS:1000045|collision energy=39.0
+[1]UO:0000000|unit=UO:0000266|electronvolt
+MS:1003275|other attribute name=Status
+<AttributeSet Spectrum=EMPTY_SET>
+<AttributeSet Analyte=all>
+MS:1001467|taxonomy: NCBI TaxID=9606
+<Cluster=1>
+MS:1003320|spectrum cluster size=6
+MS:1003268|spectrum cluster member keys=1,6,23,63,89
+<Spectrum=1>
+MS:1003061|library spectrum name=FAC[Carbamidomethyl]HSASLTVR/3 (HCD)
+[1]MS:1000894|retention time=1189.6
+[1]UO:0000000|unit=UO:0000010|second
+[1]MS:1003212|library attribute set name=all
+MS:1003275|other attribute name=BinaryFileOffset
+MS:1003276|other attribute value=
+[2]MS:1003254|peak attribute=MS:1003279|observation frequency of peak
+[2]MS:1003254|peak attribute=MS:1003285|standard deviation of m/z values of peak among replicates
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=FAC[Carbamidomethyl]HSASLTVR/3
+[1]MS:1003212|library attribute set name=all
+<Interpretation=1>
+MS:1002357|PSM-level probability=0.974
+<InterpretationMember=1>
+MS:1003166|assigned intensity fraction=0.287
+<Peaks>
+110.0405	12342	IH	10	52.34
+110.3405	97	?	3	22.43
+110.5405	1		0	0
+<Spectrum=2>
+MS:1003212|library attribute set name=EMPTY_SET
+<Peaks>
+103.0541	102.5
+110.0711	1329.4

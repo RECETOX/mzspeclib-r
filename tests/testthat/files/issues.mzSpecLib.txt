@@ -1,0 +1,45 @@
+# Hand written fixture that collects the deviations from the HUPO-PSI
+# mzSpecLib specification, version 1.0, a reader has to survive: content
+# before the first section line, a missing "<mzSpecLib>" line, sections
+# without their required parent section, a "<Peaks>" section outside a
+# spectrum, a duplicated library spectrum key, a non-numeric and a missing
+# section key, an attribute set defined after the first spectrum, a malformed
+# attribute set line, an unknown section and a line which is not a controlled
+# vocabulary parameter. Every accession and term name is copied verbatim from
+# inst/extdata/example.mzSpecLib.txt.
+MS:1003186|library format version=1.0
+MS:1003188|library name=issues
+
+<Cluster=1>
+MS:1003320|spectrum cluster size=6
+
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=FAC[Carbamidomethyl]HSASLTVR/3
+
+<Peaks>
+110.04050	12342	IH
+
+<InterpretationMember=1>
+MS:1003166|assigned intensity fraction=0.287
+
+<Spectrum=1>
+this line is not a CV parameter
+MS:1003061|library spectrum name=spectrum one
+
+<AttributeSet Spectrum=LATE>
+MS:1000511|ms level=2
+
+<Spectrum=1>
+MS:1003061|library spectrum name=duplicate key
+
+<Spectrum=x>
+MS:1003061|library spectrum name=non numeric key
+
+<Spectrum>
+MS:1003061|library spectrum name=no key
+
+<AttributeSet Spectrum>
+MS:1000511|ms level=2
+
+<Bogus=1>
+MS:1000511|ms level=2

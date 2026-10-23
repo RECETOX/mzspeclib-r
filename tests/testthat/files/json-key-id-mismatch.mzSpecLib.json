@@ -1,0 +1,66 @@
+{
+  "attributes": [
+    {
+      "accession": "MS:1003186",
+      "name": "library format version",
+      "value": "1.0"
+    },
+    {
+      "accession": "MS:1003187",
+      "name": "library identifier",
+      "value": "mzspec:PXL000001:fetal_brain_tiny_consensus_td"
+    },
+    {
+      "accession": "MS:1003188",
+      "name": "library name",
+      "value": "fetal_brain_tiny_consensus_td"
+    }
+  ],
+  "spectra": [
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 1
+        }
+      ],
+      "analytes": {
+        "5": {
+          "id": 9,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "DLGEENFK/2"
+            }
+          ]
+        },
+        "1": {
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "KYLYEIAR/2"
+            }
+          ]
+        }
+      },
+      "interpretations": {
+        "1": {
+          "id": 1,
+          "attributes": [
+            {
+              "accession": "MS:1002357",
+              "name": "PSM-level probability",
+              "value": 0.974
+            }
+          ]
+        }
+      },
+      "mzs": [],
+      "intensities": []
+    }
+  ],
+  "format_version": "1.0"
+}

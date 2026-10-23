@@ -1,0 +1,36 @@
+# Synthetic library for the tests of the repeated terms of section 4.1.11 of
+# the HUPO-PSI mzSpecLib specification v1.0 (Apache License 2.0). Every
+# accession and term name below is copied verbatim from the example libraries
+# of that specification; only the arrangement of the sets is invented here, so
+# that the rule "all instances of one accession within one context form an
+# inseparable group" can be exercised without a claim of an undefined set.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:attribute_set_groups
+
+<AttributeSet Spectrum=all>
+MS:1000543|data processing action=MS:1000033|deisotoping
+MS:1000543|data processing action=MS:1003242|rank transform
+[1]MS:1000045|collision energy=39.0
+[1]UO:0000000|unit=UO:0000266|electronvolt
+
+<AttributeSet Spectrum=TWO>
+MS:1000543|data processing action=MS:1000033|deisotoping
+MS:1000543|data processing action=MS:1003242|rank transform
+
+<AttributeSet Spectrum=ONE>
+MS:1000543|data processing action=MS:1003241|square root transform
+
+<Spectrum=1>
+MS:1000543|data processing action=MS:1003241|square root transform
+
+<Spectrum=2>
+MS:1003212|library attribute set name=TWO
+MS:1003212|library attribute set name=ONE
+
+<Spectrum=3>
+MS:1003212|library attribute set name=ONE
+MS:1003212|library attribute set name=TWO
+
+<Spectrum=4>
+[1]MS:1000045|collision energy=45.0

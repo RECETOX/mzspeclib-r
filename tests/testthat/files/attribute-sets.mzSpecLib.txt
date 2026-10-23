@@ -1,0 +1,74 @@
+# Hand written fixture for the attribute set inheritance and precedence rules
+# of the HUPO-PSI mzSpecLib specification, version 1.0, sections 4.1.4 and
+# 4.1.11. Every accession and term name is copied verbatim from
+# inst/extdata/example.mzSpecLib.txt (an excerpt of
+# examples/SpectraST/fetal_brain_tiny_consensus_td.mzSpecLib.txt from the
+# HUPO-PSI/mzSpecLib repository, (c) HUPO-PSI, Apache License 2.0).
+# The nine spectra cover, in order: no claim at all, two claimed sets, the
+# same two claims in the opposite order, a set claimed twice around a third
+# one, a section that shadows two inherited terms (one with a different
+# value, one with exactly the inherited value), a claim of a set that is
+# never defined, a claim of a declared but empty set, and a claim of a set
+# that overrides a term of the "all" set.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+MS:1003188|library name=attribute set precedence
+
+<AttributeSet Spectrum=all>
+MS:1000511|ms level=2
+MS:1003072|spectrum origin type=MS:1003073|observed spectrum
+MS:1000043|intensity unit=MS:1000905|percent of base peak times 100
+[1]MS:1000045|collision energy=39.0
+[1]UO:0000000|unit=UO:0000266|electronvolt
+MS:1003275|other attribute name=Status
+
+<AttributeSet Spectrum=FIRST>
+MS:1003072|spectrum origin type=MS:1003195|shuffle-and-reposition decoy spectrum
+MS:1000044|dissociation method=MS:1000422|beam-type collision induced dissociation
+
+<AttributeSet Spectrum=SECOND>
+MS:1003072|spectrum origin type=MS:1003073|observed spectrum
+
+<AttributeSet Spectrum=EMPTY_SET>
+
+<AttributeSet Spectrum=LOCAL_VALUE>
+MS:1000511|ms level=3
+
+<AttributeSet Analyte=all>
+MS:1001467|taxonomy: NCBI TaxID=9606
+
+<Spectrum=1>
+MS:1003061|library spectrum name=spectrum one
+
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=FAC[Carbamidomethyl]HSASLTVR/3
+
+<Spectrum=2>
+MS:1003212|library attribute set name=FIRST
+MS:1003212|library attribute set name=SECOND
+
+<Spectrum=3>
+MS:1003212|library attribute set name=SECOND
+MS:1003212|library attribute set name=FIRST
+
+<Spectrum=4>
+MS:1003212|library attribute set name=FIRST
+MS:1003212|library attribute set name=SECOND
+MS:1003212|library attribute set name=FIRST
+
+<Spectrum=5>
+MS:1000511|ms level=3
+MS:1003072|spectrum origin type=MS:1003073|observed spectrum
+
+<Spectrum=6>
+MS:1003212|library attribute set name=NEVER_DEFINED
+
+<Spectrum=7>
+MS:1003212|library attribute set name=EMPTY_SET
+
+<Spectrum=8>
+MS:1003212|library attribute set name=LOCAL_VALUE
+
+<Spectrum=9>
+[1]MS:1000045|collision energy=45.0

@@ -1,0 +1,13 @@
+﻿# Fixture with a UTF-8 byte order mark in front of the first line and CRLF
+# line endings, both of which the reader has to tolerate. The content is the
+# minimal library of section 4.1.1 with a peak list; the accession is copied
+# verbatim from inst/extdata/example.mzSpecLib.txt.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+
+<Spectrum=1>
+MS:1003061|library spectrum name=FAC[Carbamidomethyl]HSASLTVR/3 (HCD)
+<Peaks>
+110.04050	12342	IH
+110.34050	97	?

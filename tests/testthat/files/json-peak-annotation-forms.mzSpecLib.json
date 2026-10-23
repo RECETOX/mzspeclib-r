@@ -1,0 +1,95 @@
+{
+  "attributes": [
+    {
+      "accession": "MS:1003186",
+      "name": "library format version",
+      "value": "1.0"
+    },
+    {
+      "accession": "MS:1003187",
+      "name": "library identifier",
+      "value": "mzspec:PXL000001:fetal_brain_tiny_consensus_td"
+    },
+    {
+      "accession": "MS:1003188",
+      "name": "library name",
+      "value": "fetal_brain_tiny_consensus_td"
+    }
+  ],
+  "spectra": [
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 1
+        }
+      ],
+      "mzs": [
+        103.0541,
+        110.0711,
+        115.0863
+      ],
+      "intensities": [
+        102.5,
+        1329.4,
+        110.9
+      ],
+      "peak_annotations": [
+        "?",
+        "IC[Carbamidomethyl]/-0.0008",
+        "y3/-0.0011"
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 2
+        }
+      ],
+      "mzs": [
+        103.0541,
+        110.0711,
+        115.0863
+      ],
+      "intensities": [
+        102.5,
+        1329.4,
+        110.9
+      ],
+      "peak_annotations": [
+        [
+          "?"
+        ],
+        [
+          "a1/-0.0003",
+          "y2-H2O-NH3^2/0.0017"
+        ],
+        []
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 3
+        }
+      ],
+      "mzs": [
+        103.0541,
+        110.0711,
+        115.0863
+      ],
+      "intensities": [
+        102.5,
+        1329.4,
+        110.9
+      ],
+      "peak_annotations": "not an array but a single string"
+    }
+  ],
+  "format_version": "1.0"
+}

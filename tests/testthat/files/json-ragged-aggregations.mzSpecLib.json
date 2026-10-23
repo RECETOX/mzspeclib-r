@@ -1,0 +1,53 @@
+{
+  "attributes": [
+    {
+      "accession": "MS:1003186",
+      "name": "library format version",
+      "value": "1.0"
+    },
+    {
+      "accession": "MS:1003187",
+      "name": "library identifier",
+      "value": "mzspec:PXL000001:fetal_brain_tiny_consensus_td"
+    },
+    {
+      "accession": "MS:1003188",
+      "name": "library name",
+      "value": "fetal_brain_tiny_consensus_td"
+    }
+  ],
+  "spectra": [
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 1
+        }
+      ],
+      "mzs": [
+        101.0708,
+        110.0711,
+        115.05
+      ],
+      "intensities": [
+        187.4,
+        723.8,
+        72.7
+      ],
+      "peak_annotations": [
+        "?",
+        "?"
+      ],
+      "aggregations": [
+        [
+          0.6
+        ],
+        [
+          1.0
+        ]
+      ]
+    }
+  ],
+  "format_version": "1.0"
+}

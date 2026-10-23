@@ -1,0 +1,60 @@
+# Transcribed from the HUPO-PSI mzSpecLib specification, version 1.0,
+# section 4.1.12 "Example of Attribute Sets", Example 2 (a repeated attribute
+# is inherited or overridden as an inseparable set) and Example 3 (an
+# attribute set claimed from inside a group is inherited into that group).
+# Source: mzSpecLib_specification_v1.0.pdf, http://psidev.info/mzSpecLib.
+# (c) HUPO-PSI, Apache License 2.0.
+# Example 2 and Example 3 do not use the "all" set, so they are concatenated
+# here with the spectra renumbered. The attribute set of Example 3 is
+# spelled "human_tryptic" and claims from inside group [2] / [3] exactly as
+# the specification writes them. Wrapped display lines were joined again;
+# every accession and term name is copied verbatim from the specification.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+
+<AttributeSet Spectrum=all>
+MS:1000543|data processing action=MS:1000033|deisotoping
+MS:1000543|data processing action=MS:1003242|rank transform
+
+<AttributeSet Analyte=human_tryptic>
+MS:1001469|taxonomy: scientific name=Homo sapiens
+MS:1001045|cleavage agent name=MS:1001251|Trypsin
+MS:1003048|number of enzymatic termini=2
+
+<Spectrum=1>
+MS:1003212|data processing action=MS:1003241|square root transform
+
+<Spectrum=2>
+
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=DLGEENFK/2
+[1] MS:1003053|theoretical monoisotopic m/z=476.2245
+[1] UO:0000000|unit=MS_1000040|m/z
+[2] MS:1000885|protein accession=sp|P02768|ALBU_HUMAN
+[2] MS:1000886|protein name=human serum albumin
+[2] MS:1003047|protein sequence offset=37
+[2] MS:1001112|n-terminal flanking residue=K
+[2] MS:1001113|c-terminal flanking residue=A
+[2] MS:1003212|library attribute set name=human_tryptic
+
+<Spectrum=3>
+
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=KYLYEIAR/2
+[1] MS:1003053|theoretical monoisotopic m/z=528.29789
+[1] UO:0000000|unit=MS_1000040|m/z
+[2] MS:1000885|protein accession=sp|P02768|ALBU_HUMAN
+[2] MS:1000886|protein name=human serum albumin
+[2] MS:1003047|protein sequence offset=161
+[2] MS:1001112|n-terminal flanking residue=K
+[2] MS:1001113|c-terminal flanking residue=A
+[2] MS:1003212|library attribute set name=human_tryptic
+[3] MS:1000885|protein accession=sp|P02769|ALBU_BOVIN
+[3] MS:1000886|protein name=bovine serum albumin
+[3] MS:1003047|protein sequence offset=160
+[3] MS:1001112|n-terminal flanking residue=G
+[3] MS:1001113|c-terminal flanking residue=R
+[3] MS:1001469|taxonomy: scientific name=Bos taurus
+[3] MS:1001045|cleavage agent name=MS:1001251|Trypsin
+[3] MS:1003048|number of enzymatic termini=1

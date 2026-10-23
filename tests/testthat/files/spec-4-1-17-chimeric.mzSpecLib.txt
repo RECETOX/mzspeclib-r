@@ -1,0 +1,105 @@
+# Transcribed verbatim from the HUPO-PSI mzSpecLib specification, version
+# 1.0, section 4.1.17 "Example of a chimeric spectrum". Source:
+# mzSpecLib_specification_v1.0.pdf, http://psidev.info/mzSpecLib.
+# (c) HUPO-PSI, Apache License 2.0.
+# The peak rows are separated by real tabs (section 4.1.13); the runs of
+# spaces of the specification's display stand for a tab. Wrapped display lines
+# were joined again, the page breaks and page numbers of the PDF were dropped,
+# and the example ends where the specification ends it ("... (truncated for
+# brevity)"). Every accession and term name is copied verbatim from the
+# specification.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+
+<Spectrum=1>
+MS:1003061|library spectrum name=AILINFIDR/2+HLAEISLLEQSFVK/3
+MS:1003208|experimental precursor monoisotopic m/z=538.3234
+MS:1003072|spectrum origin type=MS:1003073|observed spectrum
+MS:1003059|number of peaks=222
+MS:1003063|universal spectrum identifier=mzspec:PXD046281:20230206_borrelia_5A4B31_rprp_F9:scan:39167:AILINFIDR/2+HLAEISLLEQSFVK/3
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=AILINFIDR/2
+MS:1001117|theoretical mass=1074.6306
+<Analyte=2>
+MS:1003270|proforma peptidoform ion notation=HLAEISLLEQSFVK/3
+MS:1001117|theoretical mass=1613.8897
+<Interpretation=1>
+MS:1003163|analyte mixture members=1,2
+<Peaks>
+84.0446	11605.7	IQ-NH3/2.5ppm
+84.0811	28119.8	IK-NH3/3.9ppm
+86.0967	708095.4	IL/3.2ppm
+87.0556	7941.3	IN/3.6ppm
+87.1000	43344.2	IL+i/-0.6ppm
+88.0396	6063.7	ID/3.4ppm
+89.0709	3381.4	?
+101.0712	8654.1	IQ/2.6ppm
+102.0552	16947.8	IE/2.4ppm
+104.6250	3621.9	?
+107.7645	3077.3	?
+110.0715	32326.8	2@a1/2.1ppm
+112.0872	12136.4	IR-NH3/2.5ppm
+114.0915	5812.4	1@m2:3^2/1.4ppm
+116.0711	5845.4	IR+H2O+H2O-N3H7/4.3ppm
+120.0811	37238.5	IF/2.7ppm
+128.0067	3493.3	?
+129.1025	42042.6	2@y1-H2O/2.0ppm
+130.0866	18462.1	2@y1-NH3/2.7ppm
+136.0760	25607.6	0@IY/2.3ppm
+136.0814	4217.6	?
+140.1437	21269.7	?
+141.0663	3462.8	2@m9:11-CO-H2O-H2O^2/3.2ppm
+143.1183	5625.6	IK[Acetyl]/2.9ppm
+147.1130	30064.8	2@y1/1.3ppm
+147.7529	4753.6	?
+147.7613	10702.6	?
+147.7793	22742.6	?
+147.7882	11670.4	?
+147.7962	8056.7	?
+147.8054	6234.9	?
+147.8128	4745.6	?
+157.1339	583917.3	1@a2/2.3ppm
+158.0926	9620.5	1@y1-NH3/1.2ppm
+158.1306	6595.5	0@a2{GK}/11.5ppm
+158.1372	47934.8	1@a2+i/-0.4ppm
+171.1130	4223.8	1@m3:5^2/1.1ppm
+172.1165	4587.1	?
+173.1289	7568.3	2@m5:6-CO/2.6ppm
+175.1193	175526.3	1@y1/2.0ppm
+175.1280	8607.3	?
+176.1229	9200.3	1@y1+i/1.4ppm
+178.2119	10569.1	?
+183.1133	9553.6	2@m5:6-H2O/2.7ppm
+183.5190	3343.2	?
+185.1288	463714.2	1@b2/1.9ppm
+185.1651	13455.5	0@a2{LV}/1.4ppm
+186.1323	42196.1	1@b2+i/-14.2ppm
+187.1443	7080.1	0@a2{LT}/1.0ppm
+192.7906	3377.9	?
+196.1449	29221.6	?
+197.1289	8604.2	2@y3^2/2.3ppm
+199.1809	195314.4	1@m2:3-CO/2.1ppm
+200.1397	4190.7	1@m4:5-CO/1.7ppm
+200.1841	22796.5	1@m2:3-CO+i/-0.8ppm
+201.0867	4445.6	2@m3:4/-1.4ppm
+201.1239	13906.0	2@m5:6/2.6ppm
+209.1033	4416.2	0@b2{AH}/-0.0ppm
+211.1085	6414.8	1@m7:8-H2O/3.7ppm
+214.1551	4383.8	0@a2{LQ}/0.5ppm
+215.1399	7895.1	2@m4:5-CO/4.1ppm
+216.0990	4989.7	2@m10:11/5.2ppm
+217.0824	3800.7	0@b2{DT}/2.3ppm
+223.1557	10709.2	2@a2/1.6ppm
+224.1397	32495.5	?
+225.1237	4280.9	2@m7:12-CO-NH3^3/1.5ppm
+225.1965	6662.8	?
+226.1182	4171.9	2@b4^2/-1.8ppm
+227.1760	74901.4	1@m2:3/2.6ppm
+228.1348	26600.3	1@m4:5/2.3ppm
+228.1795	10189.0	1@m2:3+i/-10.5ppm
+229.1190	9942.9	1@m7:8/3.1ppm
+229.1389	4238.0	1@m4:5+i/3.3ppm
+233.1653	6992.5	1@m6:7-CO/2.0ppm
+234.1240	18098.7	1@m5:6-CO/1.3ppm
+240.0986	10605.4	2@m9:10-H2O/3.0ppm

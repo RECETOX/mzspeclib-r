@@ -1,0 +1,40 @@
+# Transcribed verbatim from the HUPO-PSI mzSpecLib specification, version
+# 1.0, section 4.1.12 "Example of Attribute Sets", Example 1: the attribute
+# set specifications of the library header and both of the library spectra the
+# example contrasts. Source: mzSpecLib_specification_v1.0.pdf,
+# http://psidev.info/mzSpecLib. (c) HUPO-PSI, Apache License 2.0.
+# The second spectrum is the one of the specification's "On the other hand,
+# if this is specified" paragraph; it is numbered 2 here because the
+# specification gives both spectra the key 1. Wrapped display lines were
+# joined again. Every accession and term name is copied verbatim from the
+# specification.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+
+<AttributeSet Spectrum=all>
+MS:1000465|scan polarity=MS:1000130|positive scan
+MS:1000044|dissociation method=MS:1000133|collision-induced dissociation
+MS:1003072|spectrum origin type=MS:1003073|observed spectrum
+
+<AttributeSet Spectrum=ETD>
+MS:1000031|instrument model=MS:1000639|LTQ Orbitrap XL ETD
+MS:1000044|dissociation method=MS:1000598|electron transfer dissociation
+
+<AttributeSet Spectrum=HCD>
+MS:1000031|instrument model=MS:1002416|Orbitrap Fusion
+MS:1000044|dissociation method=MS:1000598|beam-type collision-induced dissociation
+MS:1000419|collision gas=helium
+MS:1000138|normalized collision energy=35
+
+<AttributeSet Spectrum=Decoy>
+MS:1003072|spectrum origin type=MS:1003195|shuffle and reposition decoy spectrum
+
+<Spectrum=1>
+MS:1003212|library attribute set name=ETD
+MS:1003212|library attribute set name=Decoy
+MS:1003072|spectrum origin type=MS:1003194|precursor shift decoy spectrum
+
+<Spectrum=2>
+MS:1003212|library attribute set name=HCD
+MS:1003212|library attribute set name=ETD

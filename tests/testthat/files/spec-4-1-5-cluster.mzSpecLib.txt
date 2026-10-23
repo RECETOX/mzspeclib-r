@@ -1,0 +1,46 @@
+# Transcribed verbatim from the HUPO-PSI mzSpecLib specification, version
+# 1.0, section 4.1.5 "Spectrum Cluster section" (the example of a spectrum
+# cluster and the paragraph that follows it). Source: mzSpecLib_specification_
+# v1.0.pdf, http://psidev.info/mzSpecLib. (c) HUPO-PSI, Apache License 2.0.
+# Only the line breaks that the specification's PDF display introduced were
+# joined again, as the specification itself says ("note that some lines are
+# wrapped in this display"), and the "..." placeholders of the example were
+# dropped. Every accession and term name is copied verbatim from the
+# specification.
+# Not transcribed, and to be read as an addition of this fixture: the example
+# ends with a second cluster line "<Cluster=N+1>" whose content the
+# specification leaves as "..."; it is written out here as the cluster of key 2
+# with the two terms the first cluster also uses and values of this fixture's
+# own, so that a file with more than one cluster can be tested. The two
+# <Spectrum> sections after it are not part of the example either: the
+# specification's sentence "In case a cluster member is identified to some
+# analyte, that information should be specified within the <Spectrum> section
+# of that cluster member" asks for spectra next to the clusters, and their
+# library spectrum names are the two peptide names of the chimeric example of
+# section 4.1.17 of the same specification.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:cluster_example
+
+<Cluster=1>
+MS:1003320|spectrum cluster size=6
+MS:1003268|spectrum cluster member keys=1,6,23,63,89
+MS:1003269|spectrum cluster member USI=mzspec:PXD000561:Adult_Frontalcortex_bRP_Elite_85_f09:scan:17555
+[1] MS:1003321|summary statistics of clustered spectra=MS:1003304|spectral dot product
+[1] MS:1003176|attribute mean=0.7
+[2] MS:1003321|summary statistics of clustered spectra=MS:1003208|experimental precursor monoisotopic m/z
+[2] MS:1003176|attribute mean=1029.05
+[2] MS:1003177|attribute standard deviation=0.41
+MS:1003322|spectrum cluster best representative=63
+
+<Cluster=2>
+MS:1003320|spectrum cluster size=2
+MS:1003268|spectrum cluster member keys=2,4
+
+<Spectrum=1>
+MS:1003061|library spectrum name=AILINFIDR/2
+MS:1000511|ms level=2
+
+<Spectrum=2>
+MS:1003061|library spectrum name=HLAEISLLEQSFVK/3
+MS:1000511|ms level=2

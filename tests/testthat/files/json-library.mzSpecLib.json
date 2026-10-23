@@ -1,0 +1,233 @@
+{
+  "attributes": [
+    {
+      "accession": "MS:1003186",
+      "name": "library format version",
+      "value": "1.0"
+    },
+    {
+      "accession": "MS:1003187",
+      "name": "library identifier",
+      "value": "mzspec:PXL000001:fetal_brain_tiny_consensus_td"
+    },
+    {
+      "accession": "MS:1003188",
+      "name": "library name",
+      "value": "fetal_brain_tiny_consensus_td"
+    },
+    {
+      "accession": "MS:1003207",
+      "cv_param_group": "1",
+      "name": "library creation software",
+      "value": "SpectraST",
+      "value_accession": "MS:1001477"
+    },
+    {
+      "accession": "MS:1003200",
+      "cv_param_group": "1",
+      "name": "software version",
+      "value": "6.0"
+    }
+  ],
+  "spectrum_attribute_sets": {
+    "all": [
+      {
+        "accession": "MS:1000511",
+        "name": "ms level",
+        "value": 2
+      },
+      {
+        "accession": "MS:1000043",
+        "name": "intensity unit",
+        "value": "percent of base peak times 100",
+        "value_accession": "MS:1000905"
+      },
+      {
+        "accession": "MS:1003254",
+        "cv_param_group": "2",
+        "name": "peak attribute",
+        "value": "observation frequency of peak",
+        "value_accession": "MS:1003279"
+      }
+    ],
+    "DECOY": [
+      {
+        "accession": "MS:1003072",
+        "name": "spectrum origin type",
+        "value": "shuffle-and-reposition decoy spectrum",
+        "value_accession": "MS:1003195"
+      }
+    ]
+  },
+  "analyte_attribute_sets": {
+    "HUMAN_TRYPTIC": [
+      {
+        "accession": "MS:1001467",
+        "name": "taxonomy: NCBI TaxID",
+        "value": 9606
+      },
+      {
+        "accession": "MS:1001045",
+        "name": "cleavage agent name",
+        "value": "Trypsin",
+        "value_accession": "MS:1001251"
+      }
+    ],
+    "EMPTY_SET": []
+  },
+  "interpretation_attribute_sets": {},
+  "clusters": [
+    {
+      "id": 1,
+      "attributes": [
+        {
+          "accession": "MS:1003320",
+          "name": "spectrum cluster size",
+          "value": 6
+        },
+        {
+          "accession": "MS:1003268",
+          "name": "spectrum cluster member keys",
+          "value": "1,6,23,63,89"
+        }
+      ]
+    }
+  ],
+  "spectra": [
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 1
+        },
+        {
+          "accession": "MS:1003061",
+          "name": "library spectrum name",
+          "value": "FAC[Carbamidomethyl]HSASLTVR/3 (HCD)"
+        },
+        {
+          "accession": "MS:1000894",
+          "cv_param_group": "1",
+          "name": "retention time",
+          "value": 1189.6
+        },
+        {
+          "accession": "UO:0000000",
+          "cv_param_group": "1",
+          "name": "unit",
+          "value": "second",
+          "value_accession": "UO:0000010"
+        },
+        {
+          "accession": "MS:1003212",
+          "name": "library attribute set name",
+          "value": "DECOY"
+        }
+      ],
+      "analytes": {
+        "1": {
+          "id": 1,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "FAC[Carbamidomethyl]HSASLTVR/3"
+            },
+            {
+              "accession": "MS:1000041",
+              "name": "charge state",
+              "value": 3
+            },
+            {
+              "accession": "MS:1003212",
+              "name": "library attribute set name",
+              "value": "HUMAN_TRYPTIC"
+            }
+          ]
+        }
+      },
+      "interpretations": {
+        "1": {
+          "id": 1,
+          "attributes": [
+            {
+              "accession": "MS:1003288",
+              "name": "number of unassigned peaks",
+              "value": 60
+            },
+            {
+              "accession": "MS:1002357",
+              "name": "PSM-level probability",
+              "value": 0.998
+            }
+          ],
+          "member_interpretations": {
+            "1": {
+              "id": 1,
+              "attributes": [
+                {
+                  "accession": "MS:1003166",
+                  "name": "assigned intensity fraction",
+                  "value": 0.287
+                }
+              ]
+            }
+          }
+        }
+      },
+      "mzs": [103.0541, 110.0711, 115.0863],
+      "intensities": [102.5, 1329.4, 110.9],
+      "peak_annotations": ["?", "IC[Carbamidomethyl]/-0.0008", "?"],
+      "aggregations": [[0.6], [1.0], [0.8]]
+    },
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 2
+        },
+        {
+          "accession": "MS:1003061",
+          "name": "spectrum name",
+          "value": "AVC[Carbamidomethyl]ASFSLTHR/3 (HCD)"
+        },
+        {
+          "accession": "MS:1003212",
+          "name": "library attribute set name",
+          "value": "DECOY"
+        }
+      ],
+      "analytes": {
+        "1": {
+          "id": 1,
+          "attributes": [
+            {
+              "accession": "MS:1003270",
+              "name": "proforma peptidoform ion notation",
+              "value": "AVC[Carbamidomethyl]ASFSLTHR/3"
+            }
+          ]
+        }
+      },
+      "interpretations": {
+        "1": {
+          "id": 1,
+          "attributes": [
+            {
+              "accession": "MS:1002357",
+              "name": "PSM-level probability",
+              "value": 0.998
+            }
+          ]
+        }
+      },
+      "mzs": [103.0541, 110.0711],
+      "intensities": [102.5, 1329.4],
+      "peak_annotations": [["?", "y1/-0.0005"], []],
+      "aggregations": ["1.000", []]
+    }
+  ],
+  "format_version": "1.0"
+}

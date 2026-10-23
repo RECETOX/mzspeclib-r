@@ -1,0 +1,41 @@
+# Transcribed from the HUPO-PSI mzSpecLib specification, version 1.0,
+# section 4.1.6 "Library spectrum metadata section" (the MS level / origin
+# type examples and the cross reference examples). Source:
+# mzSpecLib_specification_v1.0.pdf, http://psidev.info/mzSpecLib.
+# (c) HUPO-PSI, Apache License 2.0.
+# Wrapped display lines were joined again; the library header uses the two
+# lines of the example of section 4.1.1. Every accession and term name is
+# copied verbatim from the specification.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+
+<Spectrum=1>
+MS:1000511|ms level=3
+MS:1003072|spectrum origin type=MS:1003073|observed spectrum
+MS:1003065|spectrum aggregation type=MS:1003068|best replicate spectrum
+[1]MS:1003065|spectrum aggregation type=MS:1003067|consensus spectrum
+[1]MS:1003070|number of replicate spectra used=3
+[1]MS:1003069|number of replicate spectra available=3
+[1]MS:1003297|contributing replicate spectrum keys=18,19,20
+MS:1003264|similar spectrum USI=mzspec:PXD000561:Adult_Frontalcortex_bRP_Elite_85_f09:scan:17555
+[2]MS:1003263|similar spectrum keys=888
+[2]MS:1003304|spectral dot product=0.89
+[3]MS:1003259|related spectrum keys=1234
+[3]MS:1003261|related spectrum description=heavy isotope version of the same peptide ion
+[4]MS:1003259|related spectrum keys=567
+[4]MS:1003261|related spectrum description=fragment ion spectrum of peak at m/z 678.19 (isolation window 678.0 - 680.0)
+[5]MS:1003259|related spectrum keys=1083
+[5]MS:1003261|related spectrum description=unprocessed spectrum before deisotoping
+
+<Spectrum=234>
+MS:1003208|experimental precursor monoisotopic m/z=702.1033
+MS:1000633|possible charge state=2
+MS:1000633|possible charge state=3
+MS:1000633|possible charge state=4
+
+<Spectrum=235>
+[1]MS:1003208|experimental precursor monoisotopic m/z=702.1033
+[1]MS:1000041|charge state=2
+[2]MS:1003208|experimental precursor monoisotopic m/z=702.3078
+[2]MS:1000041|charge state=3

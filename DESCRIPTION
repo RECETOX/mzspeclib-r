@@ -1,0 +1,30 @@
+Package: mzspeclib
+Title: Read and Write HUPO-PSI mzSpecLib Spectral Libraries
+Version: 0.1.0
+Authors@R: person("Helge", "Hecht", email = "helge.hecht@recetox.muni.cz",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0001-6744-996X",
+        affiliation = "Masaryk University"))
+Description:
+    Reads and writes spectral libraries in the HUPO-PSI mzSpecLib format
+    (version 1.0) in both of its normative serializations, the plain text
+    format and the JSON format. The whole data model is represented - library
+    attributes, attribute sets with their inheritance rules, spectra,
+    analytes, interpretations, interpretation members, clusters and peak
+    lists including mzPAF peak annotations - and is returned as plain lists
+    and data.frames, so that no class has to be understood to use the data.
+    Accessors present the controlled vocabulary parameters either as written
+    (long tables, one row per parameter) or flattened into one row per
+    entity, which is the form tabular consumers such as
+    MsBackendMzSpecLib need. Nothing in the package depends on Spectra, and
+    nothing resolves controlled vocabulary terms against an ontology, so
+    results never depend on which version of the PSI-MS ontology happens to
+    be installed.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: jsonlite
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0

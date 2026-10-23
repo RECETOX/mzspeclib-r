@@ -1,0 +1,81 @@
+{
+  "attributes": [
+    {
+      "accession": "MS:1003186",
+      "name": "library format version",
+      "value": "1.0"
+    },
+    {
+      "accession": "MS:1003187",
+      "name": "library identifier",
+      "value": "mzspec:PXL000001:fetal_brain_tiny_consensus_td"
+    },
+    {
+      "accession": "MS:1003188",
+      "name": "library name",
+      "value": "fetal_brain_tiny_consensus_td"
+    },
+    "not an object",
+    {
+      "name": "no accession",
+      "value": 1
+    }
+  ],
+  "spectra": [
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 1
+        },
+        "an attribute which is not an object"
+      ],
+      "mzs": [
+        103.0541,
+        110.0711,
+        115.0863
+      ],
+      "intensities": [
+        102.5
+      ],
+      "peak_annotations": [
+        "?"
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003237",
+          "name": "library spectrum key",
+          "value": 2
+        },
+        {
+          "name": "an attribute without an accession"
+        }
+      ],
+      "analytes": [
+        {
+          "accession": "MS:1003270",
+          "name": "proforma peptidoform ion notation",
+          "value": "DLGEENFK/2"
+        }
+      ],
+      "mzs": [],
+      "intensities": []
+    },
+    "a spectrum which is not an object"
+  ],
+  "clusters": [
+    {
+      "attributes": [
+        {
+          "accession": "MS:1003320",
+          "name": "spectrum cluster size",
+          "value": 6
+        }
+      ]
+    }
+  ],
+  "format_version": "1.0"
+}

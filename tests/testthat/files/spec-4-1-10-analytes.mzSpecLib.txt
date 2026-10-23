@@ -1,0 +1,81 @@
+# Transcribed from the HUPO-PSI mzSpecLib specification, version 1.0,
+# section 4.1.10 "Example of Analyte, Interpretation, and InterpretationMember
+# metadata" (all four examples), with the sections for the analyte and
+# interpretation metadata of sections 4.1.7 and 4.1.8. Source:
+# mzSpecLib_specification_v1.0.pdf, http://psidev.info/mzSpecLib.
+# (c) HUPO-PSI, Apache License 2.0.
+# The examples were concatenated into one file, so the library spectrum keys
+# of the examples that all read "<Spectrum=1>" or "<Spectrum=234>" were
+# numbered on; every section line of an example keeps its own analyte,
+# interpretation and interpretation member keys. Wrapped display lines were
+# joined again, and the "MS:1003208|experimental precursor monoisotopic m/z"
+# line of the third example, which the PDF shows without its value, carries
+# the value of the same line of the second example. Every accession and term
+# name is copied verbatim from the specification.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+
+<Spectrum=1>
+MS:1003208|experimental precursor monoisotopic m/z=880.8902
+
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=DSDDVPMVLVGNKCDLAAR/3
+
+<Interpretation=1>
+MS:1002357|PSM-level probability=0.974
+
+<Spectrum=2>
+MS:1003208|experimental precursor monoisotopic m/z=880.8902
+
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=DSDDVPM[Oxidation]VLVGNKCDLAAR/2
+
+<Analyte=2>
+MS:1003270|proforma peptidoform ion notation=VLVGNKCDLDSDDVPMVLR/2
+
+<Analyte=3>
+MS:1003270|proforma peptidoform ion notation=CDLDSDDSDDVPMVLSAR/2
+
+<Interpretation=1>
+MS:1003163|analyte mixture members=1,2
+MS:1002357|PSM-level probability=0.974
+
+<Interpretation=2>
+MS:1003163|analyte mixture members=3
+MS:1002357|PSM-level probability=0.937
+
+<Spectrum=3>
+MS:1003208|experimental precursor monoisotopic m/z=880.8902
+
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=DSDDVPM[Oxidation]VLVGNKCDLAAR/2
+
+<Analyte=2>
+MS:1003270|proforma peptidoform ion notation=VLVGNKCDLDSDDVPMVLR/2
+
+<Analyte=3>
+MS:1003270|proforma peptidoform ion notation=CDLDSDDSDDVPMVLSAR/2
+
+<Interpretation=1>
+MS:1003163|analyte mixture members=1,2
+MS:1002357|PSM-level probability=0.974
+
+<InterpretationMember=1>
+MS:1003166|assigned intensity fraction=0.287
+
+<InterpretationMember=2>
+MS:1003166|assigned intensity fraction=0.423
+
+<Interpretation=2>
+MS:1003163|analyte mixture members=3
+MS:1002357|PSM-level probability=0.937
+
+<InterpretationMember=3>
+MS:1003166|assigned intensity fraction=0.512
+
+<Spectrum=4>
+
+<Analyte=1>
+MS:1003270|proforma peptidoform ion notation=[iTRAQ4plex]-LHFFM[Oxidation]PGFAPLTSR/3
+MS:1000041|charge state=3

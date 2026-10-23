@@ -1,0 +1,406 @@
+{
+ "MS:1000002": {
+  "label": "sample name",
+  "synonyms": []
+ },
+ "MS:1000008": {
+  "label": "ionization type",
+  "synonyms": []
+ },
+ "MS:1000011": {
+  "label": "mass resolution",
+  "synonyms": []
+ },
+ "MS:1000031": {
+  "label": "instrument model",
+  "synonyms": []
+ },
+ "MS:1000034": {
+  "label": "charge deconvolution",
+  "synonyms": []
+ },
+ "MS:1000041": {
+  "label": "charge state",
+  "synonyms": [
+   "z"
+  ]
+ },
+ "MS:1000044": {
+  "label": "dissociation method",
+  "synonyms": [
+   "Activation Method"
+  ]
+ },
+ "MS:1000045": {
+  "label": "collision energy",
+  "synonyms": []
+ },
+ "MS:1000138": {
+  "label": "normalized collision energy",
+  "synonyms": []
+ },
+ "MS:1000285": {
+  "label": "total ion current",
+  "synonyms": [
+   "TIC"
+  ]
+ },
+ "MS:1000419": {
+  "label": "collision gas",
+  "synonyms": []
+ },
+ "MS:1000443": {
+  "label": "mass analyzer type",
+  "synonyms": []
+ },
+ "MS:1000465": {
+  "label": "scan polarity",
+  "synonyms": []
+ },
+ "MS:1000505": {
+  "label": "base peak intensity",
+  "synonyms": []
+ },
+ "MS:1000511": {
+  "label": "ms level",
+  "synonyms": []
+ },
+ "MS:1000512": {
+  "label": "filter string",
+  "synonyms": []
+ },
+ "MS:1000525": {
+  "label": "spectrum representation",
+  "synonyms": []
+ },
+ "MS:1000543": {
+  "label": "data processing action",
+  "synonyms": []
+ },
+ "MS:1000586": {
+  "label": "contact name",
+  "synonyms": []
+ },
+ "MS:1000587": {
+  "label": "contact address",
+  "synonyms": []
+ },
+ "MS:1000588": {
+  "label": "contact URL",
+  "synonyms": []
+ },
+ "MS:1000589": {
+  "label": "contact email",
+  "synonyms": []
+ },
+ "MS:1000590": {
+  "label": "contact affiliation",
+  "synonyms": []
+ },
+ "MS:1000633": {
+  "label": "possible charge state",
+  "synonyms": []
+ },
+ "MS:1000800": {
+  "label": "mass resolving power",
+  "synonyms": []
+ },
+ "MS:1000827": {
+  "label": "isolation window target m/z",
+  "synonyms": []
+ },
+ "MS:1000828": {
+  "label": "isolation window lower offset",
+  "synonyms": []
+ },
+ "MS:1000829": {
+  "label": "isolation window upper offset",
+  "synonyms": []
+ },
+ "MS:1000868": {
+  "label": "SMILES string",
+  "synonyms": []
+ },
+ "MS:1000879": {
+  "label": "PubMed identifier",
+  "synonyms": []
+ },
+ "MS:1000894": {
+  "label": "retention time",
+  "synonyms": []
+ },
+ "MS:1000896": {
+  "label": "normalized retention time",
+  "synonyms": []
+ },
+ "MS:1000901": {
+  "label": "retention time normalization standard",
+  "synonyms": []
+ },
+ "MS:1001017": {
+  "label": "release date",
+  "synonyms": []
+ },
+ "MS:1001117": {
+  "label": "theoretical neutral mass",
+  "synonyms": [
+   "theoretical mass"
+  ]
+ },
+ "MS:1001467": {
+  "label": "taxonomy: NCBI TaxID",
+  "synonyms": []
+ },
+ "MS:1001468": {
+  "label": "taxonomy: common name",
+  "synonyms": []
+ },
+ "MS:1001469": {
+  "label": "taxonomy: scientific name",
+  "synonyms": []
+ },
+ "MS:1001581": {
+  "label": "FAIMS compensation voltage",
+  "synonyms": [
+   "FAIMS CV"
+  ]
+ },
+ "MS:1001884": {
+  "label": "signal-to-noise ratio",
+  "synonyms": []
+ },
+ "MS:1001885": {
+  "label": "command-line parameters",
+  "synonyms": []
+ },
+ "MS:1001922": {
+  "label": "Digital Object Identifier (DOI)",
+  "synonyms": [
+   "doi"
+  ]
+ },
+ "MS:1002033": {
+  "label": "contact role",
+  "synonyms": []
+ },
+ "MS:1002476": {
+  "label": "ion mobility drift time",
+  "synonyms": []
+ },
+ "MS:1002599": {
+  "label": "splash key",
+  "synonyms": []
+ },
+ "MS:1002602": {
+  "label": "sample label",
+  "synonyms": []
+ },
+ "MS:1002813": {
+  "label": "adduct ion formula",
+  "synonyms": []
+ },
+ "MS:1002866": {
+  "label": "Reference",
+  "synonyms": []
+ },
+ "MS:1002875": {
+  "label": "TSQ Quantis",
+  "synonyms": []
+ },
+ "MS:1002954": {
+  "label": "collisional cross sectional area",
+  "synonyms": []
+ },
+ "MS:1003053": {
+  "label": "theoretical monoisotopic m/z",
+  "synonyms": []
+ },
+ "MS:1003054": {
+  "label": "theoretical average m/z",
+  "synonyms": []
+ },
+ "MS:1003059": {
+  "label": "number of peaks",
+  "synonyms": []
+ },
+ "MS:1003060": {
+  "label": "number of data points",
+  "synonyms": []
+ },
+ "MS:1003061": {
+  "label": "library spectrum name",
+  "synonyms": [
+   "spectrum name"
+  ]
+ },
+ "MS:1003062": {
+  "label": "library spectrum index",
+  "synonyms": []
+ },
+ "MS:1003063": {
+  "label": "universal spectrum identifier",
+  "synonyms": [
+   "USI"
+  ]
+ },
+ "MS:1003065": {
+  "label": "spectrum aggregation type",
+  "synonyms": []
+ },
+ "MS:1003069": {
+  "label": "number of replicate spectra available",
+  "synonyms": []
+ },
+ "MS:1003070": {
+  "label": "number of replicate spectra used",
+  "synonyms": []
+ },
+ "MS:1003072": {
+  "label": "spectrum origin type",
+  "synonyms": []
+ },
+ "MS:1003085": {
+  "label": "previous MSn-1 scan precursor intensity",
+  "synonyms": []
+ },
+ "MS:1003086": {
+  "label": "precursor apex intensity",
+  "synonyms": []
+ },
+ "MS:1003103": {
+  "label": "ion annotation format",
+  "synonyms": []
+ },
+ "MS:1003168": {
+  "label": "library spectrum comment",
+  "synonyms": []
+ },
+ "MS:1003186": {
+  "label": "library format version",
+  "synonyms": []
+ },
+ "MS:1003187": {
+  "label": "library identifier",
+  "synonyms": []
+ },
+ "MS:1003188": {
+  "label": "library name",
+  "synonyms": []
+ },
+ "MS:1003189": {
+  "label": "library description",
+  "synonyms": []
+ },
+ "MS:1003190": {
+  "label": "library version",
+  "synonyms": []
+ },
+ "MS:1003191": {
+  "label": "library URI",
+  "synonyms": []
+ },
+ "MS:1003197": {
+  "label": "license URI",
+  "synonyms": []
+ },
+ "MS:1003198": {
+  "label": "copyright notice",
+  "synonyms": []
+ },
+ "MS:1003199": {
+  "label": "change log",
+  "synonyms": []
+ },
+ "MS:1003200": {
+  "label": "software version",
+  "synonyms": []
+ },
+ "MS:1003203": {
+  "label": "constituent spectrum file",
+  "synonyms": []
+ },
+ "MS:1003205": {
+  "label": "constituent library file",
+  "synonyms": []
+ },
+ "MS:1003206": {
+  "label": "library creation log",
+  "synonyms": []
+ },
+ "MS:1003207": {
+  "label": "library creation software",
+  "synonyms": []
+ },
+ "MS:1003208": {
+  "label": "experimental precursor monoisotopic m/z",
+  "synonyms": []
+ },
+ "MS:1003212": {
+  "label": "library attribute set name",
+  "synonyms": []
+ },
+ "MS:1003213": {
+  "label": "mass spectrometry acquisition method",
+  "synonyms": []
+ },
+ "MS:1003237": {
+  "label": "library spectrum key",
+  "synonyms": []
+ },
+ "MS:1003243": {
+  "label": "adduct ion mass",
+  "synonyms": []
+ },
+ "MS:1003254": {
+  "label": "peak attribute",
+  "synonyms": []
+ },
+ "MS:1003259": {
+  "label": "related spectrum keys",
+  "synonyms": []
+ },
+ "MS:1003260": {
+  "label": "related spectrum USI",
+  "synonyms": []
+ },
+ "MS:1003261": {
+  "label": "related spectrum description",
+  "synonyms": []
+ },
+ "MS:1003263": {
+  "label": "similar spectrum keys",
+  "synonyms": []
+ },
+ "MS:1003264": {
+  "label": "similar spectrum USI",
+  "synonyms": []
+ },
+ "MS:1003267": {
+  "label": "spectrum cluster key",
+  "synonyms": []
+ },
+ "MS:1003268": {
+  "label": "spectrum cluster member spectrum keys",
+  "synonyms": []
+ },
+ "MS:1003269": {
+  "label": "spectrum cluster member USI",
+  "synonyms": []
+ },
+ "MS:1003295": {
+  "label": "summary statistics of replicates",
+  "synonyms": []
+ },
+ "MS:1003296": {
+  "label": "number of replicates spectra used from source",
+  "synonyms": []
+ },
+ "MS:1003298": {
+  "label": "contributing replicate spectrum keys",
+  "synonyms": []
+ },
+ "MS:1003299": {
+  "label": "contributing replicate spectrum USI",
+  "synonyms": []
+ }
+}

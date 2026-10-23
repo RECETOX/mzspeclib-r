@@ -1,0 +1,49 @@
+# Transcribed verbatim from the HUPO-PSI mzSpecLib specification, version
+# 1.0, section 4.1.16 "Additional peak attributes": the attribute group that
+# defines the meaning of the additional columns and all four peak list
+# variants the section gives ("with both annotation and full aggregation
+# information", "with annotation but no aggregation information", "with NO
+# annotation but with full aggregation information" and "with annotation but
+# with some aggregation information missing"). The peak rows are separated by
+# real tabs, as section 4.1.13 requires; the specification's display spaces
+# stand for a tab. Source: mzSpecLib_specification_v1.0.pdf,
+# http://psidev.info/mzSpecLib. (c) HUPO-PSI, Apache License 2.0.
+# The four variants are four spectra here, because "All peaks in the same
+# spectrum MUST have the same number of columns" (section 4.1.13); each
+# carries the declaration group of the section verbatim. Every accession and
+# term name is copied verbatim from the specification.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+
+<Spectrum=1>
+[1]MS:1003254|peak attribute=MS:1003279|observation frequency of peak
+[1]MS:1003254|peak attribute=MS:1003285|standard deviation of m/z values of peak among replicates
+[1]MS:1003254|peak attribute=MS:1003286|coefficient of variation of intensity of peak among replicates
+<Peaks>
+110.04050	12342	IH	10	52.34	23.43
+110.34050	12342	?	3	522.34	22.43
+
+<Spectrum=2>
+[1]MS:1003254|peak attribute=MS:1003279|observation frequency of peak
+[1]MS:1003254|peak attribute=MS:1003285|standard deviation of m/z values of peak among replicates
+[1]MS:1003254|peak attribute=MS:1003286|coefficient of variation of intensity of peak among replicates
+<Peaks>
+110.04050	12342	IH
+110.34050	12342	?
+
+<Spectrum=3>
+[1]MS:1003254|peak attribute=MS:1003279|observation frequency of peak
+[1]MS:1003254|peak attribute=MS:1003285|standard deviation of m/z values of peak among replicates
+[1]MS:1003254|peak attribute=MS:1003286|coefficient of variation of intensity of peak among replicates
+<Peaks>
+110.04050	12342		10	52.34	23.43
+110.34050	12342		3	522.34	22.43
+
+<Spectrum=4>
+[1]MS:1003254|peak attribute=MS:1003279|observation frequency of peak
+[1]MS:1003254|peak attribute=MS:1003285|standard deviation of m/z values of peak among replicates
+[1]MS:1003254|peak attribute=MS:1003286|coefficient of variation of intensity of peak among replicates
+<Peaks>
+110.04050	12342	IH	10		23.43
+110.34050	12342	?		522.34	22.43

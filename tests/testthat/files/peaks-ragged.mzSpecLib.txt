@@ -1,0 +1,43 @@
+# Hand written fixture for the peak row grammar of the HUPO-PSI mzSpecLib
+# specification, version 1.0, sections 4.1.13 and 4.1.16, and for the ways a
+# peak list can deviate from it. Every peak row is tab separated; the
+# accession of the additional peak attributes is copied verbatim from
+# inst/extdata/example.mzSpecLib.txt.
+<mzSpecLib>
+MS:1003186|library format version=1.0
+MS:1003187|library identifier=mzspec:PXL000001:mzSpecLib_v1_example
+
+<Spectrum=1>
+MS:1003061|library spectrum name=one column rows
+<Peaks>
+110.04050
+110.34050
+
+<Spectrum=2>
+MS:1003061|library spectrum name=non numeric values
+<Peaks>
+110.04050	12342	IH
+notANumber	12342	?
+110.34050	none	?
+
+<Spectrum=3>
+[1]MS:1003254|peak attribute=MS:1003279|observation frequency of peak
+[1]MS:1003254|peak attribute=MS:1003285|standard deviation of m/z values of peak among replicates
+<Peaks>
+110.04050	12342	IH	10	52.34
+110.34050	12342
+110.54050	12342	?	3	22.43
+
+<Spectrum=4>
+MS:1003061|library spectrum name=empty peaks section
+<Peaks>
+
+<Spectrum=5>
+MS:1003061|library spectrum name=empty fields
+[1]MS:1003254|peak attribute=MS:1003279|observation frequency of peak
+<Peaks>
+110.04050	12342		10
+110.34050	12342	?	
+
+<Spectrum=6>
+MS:1003061|library spectrum name=no peaks section
